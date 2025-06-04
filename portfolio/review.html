@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>군산 유적지 후기 게시판</title>
+  <link rel="stylesheet" href="review.css">
+</head>
+<body>
+  <div class="container">
+    <h1>군산 유적지 후기 게시판</h1>
+
+    <form id="review-form">
+      <input type="text" id="name" placeholder="이름" required />
+      <textarea id="comment" placeholder="후기를 입력하세요" required></textarea>
+      <button type="submit">등록</button>
+    </form>
+
+    <div id="review-list">
+      <!-- 기존 후기 예시들 -->
+      <div class="review-item">
+        <h4>지현</h4>
+        <p>은파호수공원 진짜 좋아요! 산책하면서 힐링했어요.</p>
+      </div>
+      <div class="review-item">
+        <h4>민수</h4>
+        <p>철길마을은 감성 사진 찍기 딱이네요. 꼭 가보세요!</p>
+      </div>
+      <div class="review-item">
+        <h4>수아</h4>
+        <p>초원사진관은 영화 세트장 같아서 신기했어요.</p>
+      </div>
+      <div class="review-item">
+        <h4>재원</h4>
+        <p>빈해원은 개인적으로 재밌게 봤던 영화 촬영지라 기대됐는데 직접 보니까 왠지 반갑더라구요ㅎㅎ</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="review.js"></script>
+</body>
+</html>
